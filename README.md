@@ -27,8 +27,11 @@
 >pwd : 目前在哪個目錄下
 
 > df : 查看系統各個分割區空間使用情形，後面加 -h 是指顯示單位以KB、MB、GB來表示
+
 > du : 查看磁碟空間使用情形的方法，加 -sh 為顯示總空間 
-> echo 'string' > file : 例如，echo 'new data' > file，代表 file 這個的內容文字訊息為 new data ，利用 cat 可以叫出文字內容，如 cat file
+
+> echo 'string' > file : 例如，echo 'new data' > file，代表 file這個的內容文字訊息為 new data ，利用 cat 可以叫出文字內容，如 cat file
+
 > grep : 文字篩選，grep <string> ，搜尋含有<string>的字串
 
 # vim
