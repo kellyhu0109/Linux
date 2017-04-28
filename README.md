@@ -30,6 +30,8 @@
 
 >cat : 查看一個檔案的內容，如 : cat /var/log/message，愈加上行號就在後面輸入 -n
 
+> more : 輸出檔案內容分頁顯示。
+
 >touch : 產生空白檔案，如 : touch file1 file2
 
 >mkdir : 建立目錄
@@ -45,6 +47,12 @@
 > echo 'string' > file : 例如，echo 'new data' > file，代表 file這個的內容文字訊息為 new data ，利用 cat 可以叫出文字內容，如 cat file
 
 > grep : 文字篩選，grep <string> ，搜尋含有<string>的字串
+
+> ln -s : 建立連結，ln -s 目標對象 連結名稱。如 ln -s data slink，就是把slink指向data的內容。
+
+> \> : 覆蓋檔案。ex : a > b 
+> \>> : 新增資料於檔案尾端。 ex : a >> b
+
 
 # vim
 編輯模式、一般模式、命令模式
